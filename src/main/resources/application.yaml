@@ -6,3 +6,8 @@ gemini:
   api:
     url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
     key: ${AI_API_KEY}
+
+logging:
+  level:
+    root: WARN
+    org.springframework: WARN
